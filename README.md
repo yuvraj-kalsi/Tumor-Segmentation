@@ -42,7 +42,6 @@ The **U-Net** is a popular convolutional neural network (CNN) architecture speci
 
 Data-Flow:
 
-```bash
 1. Input Data:
 The U-Net takes as input medical images, such as ultrasound (USG) or MRI scans, that contain tumors.
 
@@ -55,7 +54,7 @@ c) Decoder: The decoder's purpose is to upsample and reconstruct the segmentatio
 
 3. Training:
 During training, the network learns to minimize the difference between its predictions and the ground truth masks.
-```
+
 
 **Output:**
 
