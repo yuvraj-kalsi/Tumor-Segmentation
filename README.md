@@ -66,6 +66,8 @@ Breast Masking:
 
 Thyroid Masking:
 
+![output-t-1](https://github.com/yuvraj-kalsi/Tumor-Segmentation/assets/84912620/427af519-2c15-49d3-9fe2-14da1c9cbf21)![output-t-2](https://github.com/yuvraj-kalsi/Tumor-Segmentation/assets/84912620/43721087-ffe1-476d-b5da-fff5234e6e5e)
+
 
 
 
