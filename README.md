@@ -40,6 +40,8 @@ Second directory of corresponding Masked Images
 
 The **U-Net** is a popular convolutional neural network (CNN) architecture specifically designed for semantic segmentation tasks, including tumor segmentation in medical images. It is named "U-Net" due to its **U-shaped architecture**, which consists of an encoder and a decoder, allowing it to capture detailed information and generate precise segmentation masks. 
 
+![u-net-architecture](https://github.com/yuvraj-kalsi/Tumor-Segmentation/assets/84912620/ede2942d-d0ba-4679-a803-19bac190e6e2)
+
 Data-Flow:
 
 * Input Data:
