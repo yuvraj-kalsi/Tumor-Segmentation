@@ -42,17 +42,17 @@ The **U-Net** is a popular convolutional neural network (CNN) architecture speci
 
 Data-Flow:
 
-1. Input Data:
+* Input Data:
 The U-Net takes as input medical images, such as ultrasound (USG) or MRI scans, that contain tumors.
 
-2. Architecture:
+* Architecture:  
 a) Encoder: Captures contextual information from the input image. It consists of a series of convolutional layers with pooling operations (typically max-pooling) that progressively reduce the spatial dimensions of the feature maps while increasing the number of feature channels
 
-b) Bottleneck: After several encoding layers, there's a bottleneck layer that captures the most critical features.
+b) Bottleneck: After several encoding layers, there's a bottleneck layer that captures the most critical features.   
 
-c) Decoder: The decoder's purpose is to upsample and reconstruct the segmentation mask. It consists of a series of up-convolutional (transposed convolution or upsampling) layers that gradually increase the spatial resolution of the feature maps. 
+c) Decoder: The decoder's purpose is to upsample and reconstruct the segmentation mask. It consists of a series of up-convolutional (transposed convolution or upsampling) layers that gradually increase the spatial resolution of the feature maps.    
 
-3. Training:
+* Training:
 During training, the network learns to minimize the difference between its predictions and the ground truth masks.
 
 
