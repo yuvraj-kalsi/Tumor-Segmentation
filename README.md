@@ -42,7 +42,7 @@ The **U-Net** is a popular convolutional neural network (CNN) architecture speci
 
 ![u-net-architecture](https://github.com/yuvraj-kalsi/Tumor-Segmentation/assets/84912620/ede2942d-d0ba-4679-a803-19bac190e6e2)
 
-Data-Flow:
+**Data-Flow:**
 
 * Input Data:
 The U-Net takes as input medical images, such as ultrasound (USG) or MRI scans, that contain tumors.
@@ -61,12 +61,12 @@ During training, the network learns to minimize the difference between its predi
 
 **Output:**
 
-Breast Masking:
+*Breast Masking:*
 
 ![output-breast](https://github.com/yuvraj-kalsi/Tumor-Segmentation/assets/84912620/e1a7b6eb-5e66-42cd-ad59-81cf826c1a53)
 
 
-Thyroid Masking:
+*Thyroid Masking:*
 
 ![output-thyroid](https://github.com/yuvraj-kalsi/Tumor-Segmentation/assets/84912620/355cbdb0-dbf8-410b-94e4-21d132637122)
 
